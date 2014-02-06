@@ -6,9 +6,9 @@ Base Expression classes for DomainSpecificQuery libraries.
 
 The library is not completed yet and it is in early development stage
 
-[![Build Status](https://travis-ci.org/nicmart/DSQExpression.png?branch=master)](https://travis-ci.org/nicmart/DSQExpression)
-[![Coverage Status](https://coveralls.io/repos/nicmart/DSQExpression/badge.png?branch=master)](https://coveralls.io/r/nicmart/DSQExpression?branch=master)
-[![Scrutinizer Quality Score](https://scrutinizer-ci.com/g/nicmart/DSQExpression/badges/quality-score.png?s=af8900c6d4649fb5c44d3c7dffd431bf546550ad)](https://scrutinizer-ci.com/g/nicmart/DSQExpression/)
+[![Build Status](https://travis-ci.org/nicmart/DSQExpression.png)](https://travis-ci.org/nicmart/DSQExpression)
+[![Coverage Status](https://coveralls.io/repos/nicmart/DSQExpression/badge.png)](https://coveralls.io/r/nicmart/DSQExpression)
+[![Scrutinizer Quality Score](https://scrutinizer-ci.com/g/nicmart/DSQExpression/badges/quality-score.png?s=5b6a889703391063c942d3a29d8caca6d917b1b3)](https://scrutinizer-ci.com/g/nicmart/DSQExpression/)
 ## Install
 
 The best way to install DSQExpression is [through composer](http://getcomposer.org).
