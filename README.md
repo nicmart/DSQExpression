@@ -1,24 +1,24 @@
-# DomainSpecificQuery
+# DSQ Expression
 
-Build and define queries specific to the application domain and compile them into other formats.
+Base Expression classes for DomainSpecificQuery libraries.
 
 # Warning!
 
 The library is not completed yet and it is in early development stage
 
-[![Build Status](https://travis-ci.org/comperio/DomainSpecificQuery.png?branch=master)](https://travis-ci.org/comperio/DomainSpecificQuery)
-[![Coverage Status](https://coveralls.io/repos/comperio/DomainSpecificQuery/badge.png?branch=master)](https://coveralls.io/r/comperio/DomainSpecificQuery?branch=master)
-[![Scrutinizer Quality Score](https://scrutinizer-ci.com/g/comperio/DomainSpecificQuery/badges/quality-score.png?s=af8900c6d4649fb5c44d3c7dffd431bf546550ad)](https://scrutinizer-ci.com/g/comperio/DomainSpecificQuery/)
+[![Build Status](https://travis-ci.org/nicmart/DSQExpression.png?branch=master)](https://travis-ci.org/nicmart/DSQExpression)
+[![Coverage Status](https://coveralls.io/repos/nicmart/DSQExpression/badge.png?branch=master)](https://coveralls.io/r/nicmart/DSQExpression?branch=master)
+[![Scrutinizer Quality Score](https://scrutinizer-ci.com/g/nicmart/DSQExpression/badges/quality-score.png?s=af8900c6d4649fb5c44d3c7dffd431bf546550ad)](https://scrutinizer-ci.com/g/nicmart/DSQExpression/)
 ## Install
 
-The best way to install DomainSpecificQuery is [through composer](http://getcomposer.org).
+The best way to install DSQExpression is [through composer](http://getcomposer.org).
 
 Just create a composer.json file for your project:
 
 ```JSON
 {
     "require": {
-        "comperio/domain-specific-query": "dev-master"
+        "nicmart/dsq-expression": "dev-master"
     }
 }
 ```
