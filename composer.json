@@ -1,7 +1,7 @@
 {
-    "name": "comperio/domain-specific-query",
+    "name": "nicmart/dsq-expression",
     "type": "library",
-    "description": "Build and define queries specific to the application domain and compile them into other formats",
+    "description": "Basic expression classes used by DSQ components",
     "keywords": [],
     "license": "MIT",
     "authors": [
@@ -11,19 +11,16 @@
         }
     ],
     "require": {
-        "php": ">=5.3.3",
-        "nicmart/string-template": "~0.1",
-        "nicmart/building": "~0.1",
-        "nicmart/universal-matcher": "~0.1",
-        "jakubledl/dissect": "~1"
+        "php": ">=5.4",
+        "nicmart/building": "~0.1"
     },
     "require-dev": {
         "satooshi/php-coveralls": "dev-master"
     },
     "autoload": {
-        "psr-0": {
-            "DSQ": "src/",
-            "DSQ\\Test": "tests"
+        "psr-4": {
+            "DSQ\\Expression\\": "src/",
+            "DSQ\\Test\\Expression\\": "tests/"
         }
     }
 }
